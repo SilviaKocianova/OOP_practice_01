@@ -1,6 +1,6 @@
 class Task {
     constructor(title) {
-        this.title;
+        this.title = title;
         this.completed = false; //every tasks begins as unfinished
     }
 
